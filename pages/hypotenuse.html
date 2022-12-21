@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Hyptenuse</title>
+    <link rel="stylesheet" href="../sytles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-heading">Fun With Triangle</div>
+
+        <ul class="nav-links">
+            <li class="list-inline">
+                <a href="../index.html">Is Traingle?</a>
+            </li>
+            <li class="list-inline">
+                <a href="./quiz.html">Quiz</a>
+            </li>
+            <li class="list-inline">
+                <a href="./hypotenuse.html">Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="calculate-hypo container-center">
+        <h1>Calculate Hypotenuse of a triangle</h1>
+        <label class="input-label" for="a"
+          ><p>Enter base value (a) =</p>
+          <input type="number" class="side-input" />
+        </label>
+        <label class="input-label" for="b">
+          <p>Enter height value (b) =</p>
+          <input type="number" class="side-input" />
+        </label>
+        <button id="btn-check" id="calculate-hypotenuse-btn">
+          Calculate hypotenuse
+        </button>
+        <h1>Hypotenuse formula</h1>
+        <h3>√(base² + height²)</h3>
+        
+      </main>
+
+      <div id="output" class="container-center"></div>
+
+    <script src="../script/calchypoten.js"></script>
+</body>
+</html>
