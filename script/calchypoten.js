@@ -1,8 +1,9 @@
 let twoSides = document.querySelectorAll(".side-input");
 let submitBtn = document.querySelector("#btn-check");
-let outputDiv = document.querySelector("#output")
+let outputDiv = document.querySelector("#output-div")
 
-submitBtn.addEventListener("click" , () => {
+submitBtn.addEventListener("click" , (event) => {
+  event.preventDefault();
     let a = twoSides[0] ;
     let b = twoSides[1] ;
 

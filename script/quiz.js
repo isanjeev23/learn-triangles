@@ -14,11 +14,12 @@ const correctAnswers = [
 
 let quizform = document.querySelector(".quiz-form");
 let submitBtn = document.querySelector("#submit-answers-btn");
-let outputDiv = document.querySelector("#output");
+let outputDiv = document.querySelector("#output-div");
 
 
 
 function claculateScore(){
+
     const formResults = new FormData(quizform);
 
     console.log(formResults) ;
@@ -31,8 +32,13 @@ function claculateScore(){
       }
       index = index + 1;
     }
-    outputDiv.innerHTML = `<h2>The score is ${score} </h2>`;
+
+    quizform.style.display="none";
+    outputDiv.innerHTML = `<h2>You scored ${score} out of 10</h2>`;
 }
-submitBtn.addEventListener("click" , claculateScore) ;
+submitBtn.addEventListener("click" , (event) => {
+  event.preventDefault();
+  claculateScore();
+}) ;
 
   

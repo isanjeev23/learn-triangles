@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fun with Triangle</title>
-    <link rel="stylesheet" href="./sytles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./sytles.css" />
+  </head>
+  <body>
     <nav>
-        <div class="nav-heading">Fun With Triangle</div>
+      <div class="nav-heading">Fun With Triangle</div>
 
-        <ul class="nav-links">
-            <li class="list-inline">
-                <a href="./index.html">Is Traingle?</a>
-            </li>
-            <li class="list-inline">
-                <a href="./pages/quiz.html">Quiz</a>
-            </li>
-            <li class="list-inline">
-                <a href="./pages/hypotenuse.html">Hypotenuse</a>
-            </li>
-        </ul>
+      <ul class="nav-links">
+        <li class="list-inline">
+          <a href="./index.html" class="link-active">Is Traingle?</a>
+        </li>
+        <li class="list-inline">
+          <a href="./pages/quiz.html">Quiz</a>
+        </li>
+        <li class="list-inline">
+          <a href="./pages/hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-inline">
+          <a href="./pages/area.html">Area of Triangle</a>
+        </li>
+      </ul>
     </nav>
-    
+
     <div class="container-center">
-    <h1>Enter Angles of Triangle</h1>
-    <label for="angle-one">Angle 1</label>
-    <input type="number" id="angle-one">
-    <label for="angle-two">Angle 2</label>
-    <input type="number" name="" id="angle-two">
-    <label for="angle-three">Angle 3</label>
-    <input type="number" id="angle-three">
-    <button id="submit-btn">Is Triangle?</button>
+      <h1>Enter Angles of Triangle</h1>
+      <form action="">
+        <label for="angle-one">Angle 1</label>
+        <input type="number" id="angle-one" />
+        <label for="angle-two">Angle 2</label>
+        <input type="number" name="" id="angle-two" />
+        <label for="angle-three">Angle 3</label>
+        <input type="number" id="angle-three" />
+        <button id="submit-btn" type="submit">Is Triangle?</button>
+      </form>
     </div>
 
+    <div id="output-div" class="container-center"></div>
 
+    <footer>
 
-    <div id="output-div"  class="container-center"></div>
+      <div class="footer-container">
+        
+        <a href="https://github.com/isanjeev23" target="_blank"
+          ><img src="./images/github.svg" alt="GitHub icon"
+        /></a>
+        <a href="https://twitter.com/sanjeev_shahni" target="_blank"
+          ><img src="./images/twitter.svg" alt="Twitter icon"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/sanjeev-kumar-186b8a249/"
+          target="_blank"
+          ><img src="./images/linkedin.svg" alt="LinkedIn icon"
+        /></a>
+      </div>
+    </footer>
 
     <script src="./script/istriangle.js"></script>
-
-</body>
+  </body>
 </html>

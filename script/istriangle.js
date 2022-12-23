@@ -10,7 +10,8 @@ function isTriangle(){
     return ( Number(angleOne.value) + Number(angleTwo.value) + Number(angleThree.value) ).toFixed(2) === 180.00 ;
 }
 
-submitBtn.addEventListener("click", () =>{
+submitBtn.addEventListener("click", (event) =>{
+    event.preventDefault();
     if(angleOne.value === "" || angleTwo.value === "" || angleThree.value === ""){
         outputDiv.innerHTML = "<h2>Please fill all the input field</h2>"
     }

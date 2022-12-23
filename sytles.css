@@ -11,6 +11,7 @@ nav{
 
 .nav-links{
     text-align: right;
+ 
 }
 
 .nav-heading{
@@ -26,6 +27,9 @@ nav{
 
 a{
     text-decoration: none;
+    margin-right: 1rem;
+    color: white;
+    font-size: medium;
     
 }
 
@@ -55,6 +59,42 @@ button{
     margin-top: 10px;
   }
 
-a{
-    margin-right: 1rem;
+
+#output-div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: large;
 }
+
+.link-active{
+    color: black;
+}
+
+/* footer */
+footer {
+    background-color: teal;
+    color: #fff;
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container a {
+    color: #fff;
+}
+
+.footer-container img {
+    width: 50px;
+    height: 50px;
+}
+
+

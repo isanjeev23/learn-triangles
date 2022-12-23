@@ -27,15 +27,14 @@ nav{
 
 a{
   text-decoration: none;
+  margin-right: 1rem;
+  color: white;
+  font-size: medium;
   
 }
 
 div.container-center{
   text-align: center;
-}
-
-a{
-  margin-right: 1rem;
 }
 
 .quiz-main {
@@ -64,3 +63,44 @@ a{
     border-radius: 15px;
     padding: 5px;
   }
+
+  #output-div{
+    background-color: black;
+    color: white;
+  }
+  
+
+  .link-active{
+    color: black;
+}
+
+/* footer */
+footer {
+  background-color: teal;
+  color: #fff;
+  padding: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container a {
+  color: #fff;
+}
+
+.footer-container img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
