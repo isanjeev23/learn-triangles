@@ -6,8 +6,8 @@ let submitBtn = document.querySelector("#submit-btn");
 let outputDiv = document.querySelector("#output-div");
 
 function isTriangle(){
-    //console.log(( Number(angleOne.value) + Number(angleTwo.value) + Number(angleThree.value) ).toFixed(2))
-    return ( Number(angleOne.value) + Number(angleTwo.value) + Number(angleThree.value) ).toFixed(2) === 180.00 ;
+
+    return parseFloat(( Number(angleOne.value) + Number(angleTwo.value) + Number(angleThree.value) ).toFixed(2) )=== 180.00 ;
 }
 
 submitBtn.addEventListener("click", (event) =>{
