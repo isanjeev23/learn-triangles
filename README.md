@@ -9,6 +9,19 @@ Welcome to the Learn Triangles repository! This project is a simple web applicat
    - open learn-triangles in vs-code
    - install live server if not installed in vscode extension
    - to start live server Alt+l Alt+O.
+   
+   
+### Technology used
+   - HTML5
+   - CSS3
+   - Javascript
+
+### Hosted on 
+   - Netlify
+
+### Preview Demo 
+
+   https://learn-tringles01.netlify.app/
 
 ### Features
 
