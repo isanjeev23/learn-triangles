@@ -29,6 +29,6 @@ Welcome to the Learn Triangles repository! This project is a simple web applicat
    - Test your knowledge with a quiz
    - Calculater Area / Hypotenuse.
 
-### Snaphot of Learn Triangles 
+### Snapshot of Learn Triangles 
 
 ![mark12](https://user-images.githubusercontent.com/62952242/209421000-b8a6b435-e840-4b3c-8f2d-4076bdeaab24.png)
