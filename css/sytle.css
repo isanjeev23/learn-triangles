@@ -79,7 +79,8 @@ footer {
   background-color: teal;
   color: #fff;
   padding: 30px;
-  position: fixed;
+  position: absolute;
+  margin-top: 20px;
   left: 0;
   bottom: 0;
   width: 100%;
